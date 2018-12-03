@@ -1,0 +1,31 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.0",
+    "arraylist": "^0.1.0",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "express-validation": "^1.0.2",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "joi": "^13.7.0",
+    "joi-json": "^2.1.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.6",
+    "mongoose-unique-validator": "^2.0.2",
+    "morgan": "^1.9.1",
+    "otplib": "^10.1.0-0",
+    "sendotp": "^1.2.9"
+  }
+}
